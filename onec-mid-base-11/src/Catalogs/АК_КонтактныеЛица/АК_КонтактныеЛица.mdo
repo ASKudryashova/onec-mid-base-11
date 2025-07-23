@@ -116,6 +116,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.АК_КонтактныеЛица.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="323b2aa1-de34-4b0e-9bf1-ba1c2d2ad00d">
     <name>КонтактныйТелефон</name>
     <synonym>
@@ -185,4 +186,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="44f1e06e-2c19-4499-8426-e53d153e82fa">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
